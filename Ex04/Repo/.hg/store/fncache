@@ -1,0 +1,12 @@
+data/src/hangman/AsciiPictureTest.java.i
+data/src/hangman/GuessManager.java.i
+data/src/hangman/GuessManagerContract.java.i
+data/src/hangman/TestSuite.java.i
+data/.project.i
+data/src/hangman/GuessManagerTest.java.i
+data/.classpath.i
+data/.hgignore.i
+data/pic.txt.i
+data/src/hangman/AsciiPicture.java.i
+data/src/hangman/Main.java.i
+data/src/hangman/GuessManagerContractCaseInsensitive.java.i

@@ -1,0 +1,10 @@
+a.	line 1		clone1 is initiated
+	line 15		adds new head to clone1		a new branch from a previous revision
+	line 16		adds new head to main		push from clone1
+
+b.	line 1		clone1 is initiated
+	line 2		clone2 is initiated
+	line 11		clone2 gets new head		pulls head from clone1
+	line 12 	main gets new head		pushes 2 brances with separate revisions from clone2
+	line 14		clone 2 loses a head		merges 2 heads into one head
+

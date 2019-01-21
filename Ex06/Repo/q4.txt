@@ -1,0 +1,36 @@
+a.	x=no
+	
+	f is the function(a, b)
+	x is undefined so it's set to a (= 'no')
+	returns 'no'
+
+b.	x=maybe
+
+	same as (a.) but with the word 'maybe' instead of 'no'
+
+c.	x=incorrectly
+
+	when function(a, b) is called, x is no longer undefined, but because g's x
+	was changed to maybe.
+	b is undefined
+	c is defined as 'incorrectly' so x is set to = c.
+	returns 'incorrectly'
+	
+d.	x=arguably
+
+	x calls line 6
+	on line 8 we return x which is defined on line 22 as arguably
+
+e.	x=impossibly
+
+	similarly to (c.), f's x is now defined and therefore we return impossibly as
+	defined for c on line on line 18
+
+f.	x=undoubtedly
+
+	on line 31 we change x to be undoubtedly.
+	when we call line 36 we change b to equal this.x (line 8)
+	when we return function(a, b) x is defined, and b is defined as x
+	therefore we return b = undoubtedly
+	
+	

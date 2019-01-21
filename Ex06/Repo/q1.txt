@@ -1,0 +1,40 @@
+a. 	200
+
+	100(b2), we then shift it 3 times to the left: 100000(b2) which we then group 
+	into paired bits 10, 00 and 00 = 200(b4)
+
+b.	38
+
+	11100(b2), 1 signed shift to the right: 1110(b2) = 14(b10).
+	14 * 4 = 56(b10) which we then turn into 38(b16)
+
+c.	1010
+
+	E - A = 4(b10) (in ASCII), which is 100(b2). After shift = 10(b2).
+	2(b10) * 5 = 10(b10) = 1010(b2)
+
+d.	-11
+	
+	long d = 1010(b2), when we see it's compliment, we see it's 1...10101 (negative number).
+	To find this positive compliment we re-invert all bits and add 1. 1011(b2) = 11(b10)
+
+e.	32
+
+	0x0012 & 0xa0b0 = 10000(b2), which when checked with bitwise | 11010 = 11010(b2).
+	To get base 8, we pair 011 and 010 to reach 32(b8)
+
+f.	0.10222...
+
+	2e-4f = 0.0002(b10). So 1100 * 0.0002 = 0.22(b10) = 0.10222...(b5)
+
+g.	30
+
+	-0b101010 = 11010110. 017 is 17(b8) = 15(b10) = 1111. so g1 & 017 = 110(b2).
+	<< 3 times = 110000(b2) = 0011, 0000 for 0x. = 30
+
+h.	z = 1 10000110 01011011101101000000000
+
+	x = -(2^131-127) * (1 + 1/8 + 1/16 + 1/64)	= -19.25
+	y = +(2^130-127) * (1 + 1/8 + 1/256)		= 9.03125
+	x * y = -173.8515625
+	z = 1 10000110 01011011101101000000000

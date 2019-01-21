@@ -1,0 +1,37 @@
+1.	king
+	
+	ping pong [king] kong
+
+2.	ping
+
+	[ping] pong king kong
+
+3.	Califo
+
+	[Califo]rnication
+
+4.	xyzxyz
+
+	abc[xyzxyz]abc
+
+5.	C3PO
+
+	R2D2BB8[C3PO]
+
+6.	12345
+
+	[12345]67
+
+7.	1701
+
+	NCC-74656,NCC-[1701],NX-74205
+	
+8.	no match
+
+9.	01234
+
+	01234abcde[01234]abcde
+
+10.	his
+
+	Here There T[his] That

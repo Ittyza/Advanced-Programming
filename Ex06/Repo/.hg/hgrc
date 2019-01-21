@@ -1,0 +1,1 @@
+-e "[paths]\ndefault = http://itamar.chuvali@ap.idc.ac.il/rhodecode/hw6/itamar.chuvali-hw6\ndefault-push = ../myrepo" 
